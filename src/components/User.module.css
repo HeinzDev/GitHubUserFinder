@@ -1,0 +1,101 @@
+@keyframes blinking{
+    0%{opacity: 0}
+    50%{opacity: .7}
+    100%{opacity: 0}
+} 
+@keyframes change-color{
+    0%{background-color: #41255f}
+    50%{background-color: #391d57}
+    100%{background-color: #41255f}
+}
+
+.user {
+    background-color: #2e144a;
+    padding: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    animation: change-color 5s ease infinite both;
+    box-shadow: 4px 3px 4px #541f9179;
+}
+
+.user_image_wrapper{
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+.user_image_wrapper img {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.user_image_wrapper::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 160px;
+    height: 160px;
+    background-color: #38d17d;
+    border-radius: 50%;
+    animation: blinking 3s ease-out infinite both;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+}
+
+.location svg{
+    fill: aquamarine;
+    font-size: 1.5rem;
+}
+
+.location span {
+    color: #9098c4;
+    font-weight: bold;
+}
+
+.stats {
+    display: flex;
+}
+
+.stats div{
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.stats div:first-child {
+    border-right: 1px solid #9098c4;
+}
+
+.stats .number {
+    background-color: #2ba597;
+    padding: .2rem .4rem;
+    border-radius: 4px;
+    margin-top: .2rem;
+}
+
+.user a {
+    text-align: center;
+    background-color: #813bd1;
+    padding: 1rem;
+    border-radius: 5px;
+    opacity: .8;
+    transition: .3s;
+    box-shadow: 4px 3px 4px #5a1f9179;
+}
+
+.user a:hover{
+    opacity: 1;
+}

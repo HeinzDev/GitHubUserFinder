@@ -1,0 +1,54 @@
+.repositories_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 40rem;
+}
+
+.repositories_div {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 2px solid #541f9179;
+    margin: 1rem;
+    padding: 1.5rem;
+    gap: .5rem;
+    box-shadow: 4px 3px 4px #541f9179;
+    transition: 1s ease;
+}
+
+.repositories_div:hover {
+    background-color: #1f1133;
+    cursor: pointer;
+}
+
+
+.link{
+    background-color: #581274;
+    border-radius: 10px;
+    margin: 1rem;
+    padding: .5rem;
+    margin: 1rem;
+    align-self: end;
+    width: 10rem;
+    opacity: .7;
+    transition: 1s;
+}
+
+.link:hover{
+    transform: scale(1.02);
+    opacity: 1;
+    box-shadow: 4px 3px 4px #541f9179;
+}
+
+.link:hover{
+   background-color: #5b378d;
+}
+
+.repositories_div h3{
+    font-weight: bold;
+}
+
+.repositories_div p{
+    color: rgb(156, 156, 156);
+}
