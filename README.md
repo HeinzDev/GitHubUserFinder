@@ -1,7 +1,7 @@
 # GitHubUserFinder
-GitHub User Finder is a React app project that utilizes the GitHub API to fetch and display user and repository information!]
+GitHub User Finder is a React app project made in Typescript that utilizes the GitHub API to fetch and display user and repository information!
 
-## App
+## App 💠
 
 
-Deploy link: [GithubUserFinder](https://git-hub-user-finder-sepia.vercel.app)
+Deploy link: [GithubUserFinder.app](https://git-hub-user-finder-sepia.vercel.app)
