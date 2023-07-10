@@ -38,7 +38,7 @@ const Repositories = ({ loadRepositories }: RepositoriesProps) => {
         <div key={full_name} className={classes.repositories_div}>
           <h3>{name}</h3>
           {description && (<p>{description}</p>)}
-          <a className={classes.link} href={`https://www.github.com/${full_name}`} target="_blank" rel="noopener noreferrer">Acess on GitHub</a>
+          <a className={classes.link} href={`https://www.github.com/${full_name}`} target="_blank" rel="noopener noreferrer">Access on GitHub</a>
         </div>
       ))}
       </div>
