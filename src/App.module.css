@@ -1,3 +1,8 @@
+body {
+    background-image: url(../background.png);
+    background-size: cover;
+}
+
 .app {
     max-width: 650px;
     margin: 0 auto;

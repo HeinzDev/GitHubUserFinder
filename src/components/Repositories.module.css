@@ -9,6 +9,7 @@
     display: flex;
     flex-direction: column;
     border-radius: 10px;
+    background-color: #0c0c0c;
     border: 2px solid #541f9179;
     margin: 1rem;
     padding: 1.5rem;
@@ -18,7 +19,7 @@
 }
 
 .repositories_div:hover {
-    background-color: #1f1133;
+    background-color: #15062b;
     cursor: pointer;
 }
 
@@ -46,6 +47,8 @@
 
 .repositories_div h3{
     font-weight: bold;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #363636;
 }
 
 .repositories_div p{
